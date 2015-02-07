@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'chancery';
+    src: url('fonts/AppleChancery.ttf');
+}
+
+#canvas {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 640px;
+    height: 480px;
+    background-color: #004;
+    overflow:hidden;
+}

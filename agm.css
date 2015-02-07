@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'chancery';
+    src: url('fonts/AppleChancery.ttf');
+}
+
+#main {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #111;
+    color: #fff;
+    font-size:16pt;
+    overflow:hidden;
+}
+
+#header {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    background-color: #040;
+    overflow:hidden;
+}
+
+#playfield {
+    position: absolute;
+    width: 720px;
+    height: 100%;
+    background-color: #004;
+    overflow:hidden;
+}
+
+#gamePort {
+    position: absolute;
+    top: 120px;
+    width: 640px;
+    height: 480px;
+    background-color: #f00;
+    overflow:hidden;
+}
+
+#agmSplash {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background-color: #400;
+    overflow:hidden;
+}
